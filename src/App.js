@@ -8,12 +8,11 @@ class App extends Component {
   state = {
     advice: "",
     count: Math.floor(Math.random() * 10 + 1),
-    id: 0,
     isLoading: false,
   };
 
   componentDidMount() {
-    console.log("mount");
+    // console.log("mount");
     this.fetchAdvice();
   }
 
@@ -33,15 +32,15 @@ class App extends Component {
       })
 
       .catch((error) => {
-        console.log(error);
+        alert(error);
         this.setState({ isLoading: false });
       });
   };
 
   render() {
     const { isLoading, advice } = this.state;
-    console.log("render");
-    console.log(advice);
+    // console.log("render");
+    // console.log(advice);
 
     return (
       <div className="App">

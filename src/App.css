@@ -28,7 +28,7 @@ body {
   justify-content: center;
   align-items: center;
   border-radius: 25px !important;
-  padding: 2%;
+  padding: 2rem;
 }
 
 .heading {
@@ -52,11 +52,11 @@ body {
     font-size: 20px !important;
   }
   .card1 {
-    height: 35%;
+    height: 48%;
   }
   .advice-btn {
     font-size: 16px !important;
-    width: 60% !important;
+    width: 70% !important;
     padding: 0;
   }
 }
@@ -66,7 +66,7 @@ body {
     font-size: 22px !important;
   }
   .card1 {
-    height: 35%;
+    height: 40%;
   }
   .advice-btn {
     font-size: 18px !important;
@@ -80,11 +80,12 @@ body {
     font-size: 24px !important;
   }
   .card1 {
-    height: 35%;
+    height: 40%;
   }
   .advice-btn {
     font-size: 20px !important;
     width: 50%;
+    height: 22%;
     padding: 0;
   }
 }
@@ -100,6 +101,7 @@ body {
   .advice-btn {
     font-size: 22px !important;
     width: 40%;
+    height: 18%;
     padding: 0;
   }
 }
